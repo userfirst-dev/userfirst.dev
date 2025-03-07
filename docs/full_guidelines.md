@@ -50,7 +50,8 @@ Below is a proposed set of comprehensive guidelines for any developer, team, or 
 
 5. **Performance & Reliability**  
    - Ensure app/site loads quickly, with minimal lag.  
-   - Use caching and efficient rendering strategies where possible.  
+   - Use caching and efficient rendering strategies where possible.
+      - If done correctly, this should also reduce the cost of operations, which is a win - win situation
    - Provide offline fallback features if relevant to the core functionality.
 
 ---
@@ -60,7 +61,8 @@ Below is a proposed set of comprehensive guidelines for any developer, team, or 
 1. **Ethical Monetization Models**  
    - Offer clear, transparent payment options (e.g., free plan with optional premium features, one-time purchases, or subscriptions).
    - If using ads, favor contextual ads rather than personalized ads that require tracking user data.  
-   - If personalized ads are used, give users a clear choice to opt-in or out.  
+   - If personalized ads are used, give users a clear choice to opt-in or opt-out.
+      - opt-it is always better for users.
 
 2. **Advertising Transparency**  
    - Clearly differentiate between app or website content and advertisements.  
@@ -74,7 +76,7 @@ Below is a proposed set of comprehensive guidelines for any developer, team, or 
 
 4. **Respect for User Time & Attention**  
    - Avoid manipulative tactics that pressure or trick users into spending more time or money.  
-   - Provide value first—monetization should be a result of genuine user satisfaction, not exploitation.
+   - Provide value first, monetization should be a result of genuine user satisfaction, not exploitation.
 
 ---
 
@@ -107,11 +109,11 @@ Below is a proposed set of comprehensive guidelines for any developer, team, or 
 ## 5. Data Analytics with a User-First Mindset
 
 1. **Anonymized Usage Data**  
-   - Collect usage metrics such as how often features are used, session length, or common navigation paths—without storing any user identifiers.  
+   - Collect usage metrics such as how often features are used, session length, or common navigation paths. Without storing any user identifiers.  
    - Aggregate results at the group or feature level, never track or store an individual user’s behavior in a personally identifiable manner.
 
 2. **Purpose-Driven Analytics**  
-   - Define and document the specific reasons for analytics collection (e.g., improving interface, diagnosing crashes).  
+   - Define and document the specific reasons for analytics collection (e.g., improving interface, diagnosing crashes, finding usage of features).  
    - Periodically audit and prune analytics events that are no longer useful.
 
 3. **Opt-In/Opt-Out Mechanisms**  
@@ -125,6 +127,8 @@ Below is a proposed set of comprehensive guidelines for any developer, team, or 
 1. **Avoid Dark Patterns**  
    - No deceptive “close” buttons on ads that aren’t actually clickable or hidden charges.  
    - Provide honest and transparent flows for signups, subscriptions, or data usage notices.
+   - Allow one click subscription cancellation
+      - Make it as easy as possible if not one click. 
 
 2. **Social Responsibility & Well-being**  
    - Be mindful of addictive design patterns. Use prompts or “take a break” reminders in products prone to high user engagement.  
