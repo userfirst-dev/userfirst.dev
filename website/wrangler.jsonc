@@ -1,6 +1,6 @@
 {
   "main": ".open-next/worker.js",
-  "name": "my-app",
+  "name": "userfirst-dev",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
